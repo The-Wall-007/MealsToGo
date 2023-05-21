@@ -1,28 +1,25 @@
 {
-    "extends": "@react-native-community",
-    "rules": {
-        "prettier/prettier": [
-            "error",
-            {
-              "singleQuote": true,
-              "parser": "flow"
-            }
-          ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "quotes": [
-            2,
-            "single",
-            {
-                "avoidEscape":true
-            }
-        ],
-        "semi": [
-            "error",
-            "always"
-        ]
+  "extends": "@react-native-community",
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "parser": "flow",
+        "semi": true
       }
-    
+    ],
+    "linebreak-style": ["error", "unix"],
+    "quotes": [
+      2,
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "semi": ["error", "never"],
+    "parserOptions": {
+      "ecmaVersion": 2023
+    }
+  }
 }
