@@ -1,7 +1,6 @@
 import React from "react";
 import { StatusBar as ExpoStatusBar } from "expo-status-bar";
 import { SafeAreaView, StyleSheet, StatusBar } from "react-native";
-
 import { Home } from "Containers/Restaurants/Screens";
 
 export default function App() {

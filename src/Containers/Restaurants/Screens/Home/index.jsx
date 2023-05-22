@@ -13,6 +13,7 @@ const Home = () => {
         placeholder="Search"
         onChangeText={setSearchQuery}
         value={searchQuery}
+        style={style.searchbar}
       />
     </View>
   );
